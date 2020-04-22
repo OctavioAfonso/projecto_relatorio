@@ -1,0 +1,262 @@
+
+
+
+
+* {
+font-family: sans-serif;
+}
+
+/*Tabela de Classificação*/
+#customers {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 30px;
+
+}
+
+#customers td, #customers th 
+{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#customers th 
+{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #e4eef3;
+}
+
+.verde, .azul, .amarelo, .cor-de-rosa{
+    background-color:#58D68D; 
+    width: 180px; 
+    text-align: center; 
+    padding: 12px;
+    float: left;
+}
+.azul
+ {
+    background-color: #85C1E9;
+    width: 180px; 
+    text-align: center; 
+    float: left;
+
+  }
+.amarelo
+ {
+    background-color: #F7DC6F;
+    width: 180px; 
+    text-align: center; 
+    padding: 12px;
+    float: left;
+ }
+.cor-de-rosa 
+{
+    background-color: #EC7063;
+    width: 180px; 
+    text-align: center; 
+    padding: 12px;
+    float: left;
+}
+
+
+.full-width {
+	width:100%;
+	clear: both;
+	padding: 3px;
+}
+
+.grafico
+{
+	 width: 97%;
+	 background-color: #3498DB;
+	 color: #f1f1f1;
+	 text-align: left; 
+	 padding: 20px;
+	 font-size: 10pt;
+	 font-weight: 500;
+	 margin-top:40px;
+}
+
+ .box-mini
+ {
+   font-size: 8pt;
+   font-weight: 800;
+   background-color: #EF5350;
+   padding: 8px;
+   display: inline-block;
+   width: 5px;
+   height: 3px;"
+ }
+.box-min
+{
+    font-size: 8pt;
+    font-weight: 800; 
+    background-color: #00acd6;
+    padding: 8px;
+    display: inline-block;
+    width: 5px;
+    height: 3px;"
+}
+
+.box-mini1
+{
+     font-size: 9pt;
+     margin-top: -5px;
+     padding: 8px;
+}
+
+.box-max
+{
+    margin-top: 20px;
+}
+
+.describe-div-left span, .table-body-II span 
+{
+   
+    font-size: 10pt;
+    padding: 10px;
+}
+
+.graphif
+{
+    position: page;
+}
+
+ .graph
+  {
+    margin-top: 2px;
+    width: 90%;
+    height: 10px;
+    border-top: 1px solid #EBEDEF;
+    border-bottom: 1px solid #EBEDEF;
+    display: block;
+
+}
+
+.graphif-competence 
+{
+    width: 30%;
+    background-color: #FCF3CF;
+    height: 20px;
+    float: left;
+    font-size: 9pt;
+    line-height: 2.5;
+    border-right: 1px solid #EBEDEF;
+}
+
+
+.graphif-point 
+{
+    height: 25px;
+    float: left;
+    font-size: 9pt;
+
+}
+
+ul li
+{
+  list-style-type: none;
+}
+
+.head-tabela
+{
+    color: blue;
+}
+
+#customers-mesclada
+{
+
+	border-collapse: collapse;
+	width: 92.1%;
+	margin-top: 30px;
+}
+
+#customers-mesclada td, #customers-mesclada th 
+{
+	border: 1px solid #ddd;
+	padding: 8px;
+
+}
+
+.avaliado 
+{
+  background-color: #EF5350;
+  height:10px;
+  display: block;
+  margin: 1px;
+  vert-align: top;
+  text-align: right;
+}
+
+.avaliador
+{
+  background-color: #00acd6;
+  height: 12px;
+  display: block;
+  margin: 1px;
+  vert-align: middle;
+  text-align: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.left {
+  float: left;
+   background: url("../../arrow.png") no-repeat top right,
+   url(../../yellow-stick.png) repeat-x;
+   background-size:  200px 200px;
+
+}
+.right {
+  float: right;
+  background-color: #3498db;
+  height: 180px;
+
+}
+
+.left, .right {
+  width: 50%;
+
+}
+
+
+.clearfix{
+    margin: 5px;
+  }
+  .left p
+  {
+    margin: 5px 10px;
+    padding: 1px;
+    font-size: 12pt;
+  }
+
+
+  
+.right p
+{
+	margin: 5px 3px;
+	padding: 7px;
+	font-size: 12pt;
+
+}
+
+.cor
+{
+	color:white;
+}
+
+
